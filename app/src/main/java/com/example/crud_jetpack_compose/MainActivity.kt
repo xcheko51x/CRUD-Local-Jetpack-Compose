@@ -65,7 +65,8 @@ fun ScreenCRUD(listaUsuarios: MutableList<Usuario>) {
                 listaUsuarios = listaUsuarios,
                 funResetCampos = {
                     nombre = ""
-                    email = "" }
+                    email = "" 
+                }
             )
             Column(
                 modifier = Modifier.fillMaxWidth()
